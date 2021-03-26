@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.input {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.button {
+  width: 5%;
+  height: 35px;
+  margin: 1%;
+  background-color: blueviolet;
+  border-radius: 100px 100px 100px 100px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.remove {
+  background-color: red;
+}
+
+.button:disabled {
+  background-color: #ccc;
+
+}
+
+.button:click {
+  border: none
+}
+
+.list {
+  list-style-type: none;
+}
